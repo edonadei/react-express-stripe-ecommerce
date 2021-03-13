@@ -1,0 +1,10 @@
+version: "2"
+services:
+  express-api:
+    build: ./express-back
+    ports:
+      - 8080:8080
+  react-ecommerce:
+    build: ./react-front
+    ports:
+      - 3000:3000
