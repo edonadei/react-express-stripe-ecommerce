@@ -20,6 +20,8 @@ A little ecommerce platform with Stripe integrated
 ### Start the application
 `docker-compose up`
 
+Your web application is now running on http://localhost:3000
+
 ## Additional documentation
 
 -  [Understand the Payment Intents API](https://stripe.com/docs/payments/payment-intents)
